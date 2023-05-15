@@ -1,9 +1,5 @@
-#include <bits/stdc++.h>
-
-#include <cstdint>
 #include <iostream>
 using namespace std;
-
 
 template <class T>
 struct node {
@@ -165,5 +161,14 @@ int main(void) {
     kt.insert('^', -1);
     kt.print();
     std::cout << std::endl;
+
+    LinkedList<std::string> kt2;
+    kt2.push_back("keshav0");
+    kt2.push_back("keshav1");
+    kt2.push_back("keshav2");
+    kt2.push_back("keshav3");
+    kt2.push_back("keshav4");
+    kt2.push_back("keshav5");
+    kt2.print();
     return 0;
 }
